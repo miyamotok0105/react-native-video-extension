@@ -2,6 +2,9 @@
 ![NPM](https://img.shields.io/npm/l/react-native-video-extension)
 
 
+動画再生プレイヤーのサンプル
+
+
 # React Native Video (Extension)
 
 A wrapper library for [react-native-video](https://github.com/react-native-video/react-native-video) that provide great video experience for user.

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, SafeAreaView } from 'react-native';
-import { YoutubePlayer, ScreenContainer } from '../../lib';
+import { FacebookPlayer, ScreenContainer } from '../../lib';
 import PostContent from '../components/PostContent';
 
 export type SafeAreaExampleProps = {};
@@ -19,7 +19,7 @@ const SafeAreaExample = ({}: SafeAreaExampleProps) => (
             flex: 1, // important, try removing flex: 1 and enter fullscreen
           }}
         >
-          <YoutubePlayer
+          <FacebookPlayer
             mode="contain"
             source={{
               uri:

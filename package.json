@@ -11,6 +11,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start:ios": "open ./ios/*.xcworkspace && yarn start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "copy-readme": "ncp README.md dist/README.md",
